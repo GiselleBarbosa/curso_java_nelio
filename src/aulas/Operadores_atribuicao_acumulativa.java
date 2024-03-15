@@ -15,9 +15,17 @@ public class Operadores_atribuicao_acumulativa {
 		int minutosUtilizados = scanner.nextInt();
 
 		double conta = 50.0;
-
+		// conta = conta + (minutosUtilizados - 100) * 2.0;
+		/*
+		 * OPERADORES DE ATRIBUICAO CUMULATIVA
+		 * 
+		 * A += B === A = A + B;
+		 * 
+		 * A -= B === A = A - B;
+		 * 
+		 */
 		if (minutosUtilizados > 100) {
-			conta = conta + (minutosUtilizados - 100) * 2.0;
+			conta += (minutosUtilizados - 100) * 2.0;
 		}
 
 		System.out.printf("Valor da conta = R$ %2.2f%n", conta);
