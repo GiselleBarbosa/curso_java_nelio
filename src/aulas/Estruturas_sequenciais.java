@@ -2,7 +2,7 @@ package aulas;
 
 import java.util.Locale;
 
-public class Estrturas_sequenciais {
+public class Estruturas_sequenciais {
 
 	public static void main(String[] args) {
 		int variavel = 32;
@@ -43,8 +43,9 @@ public class Estrturas_sequenciais {
 		String nome = "Maria"; // %s
 		int idade = 31; // %d
 		double salario = 4000.0;// %.2f
-		System.out.printf("%s tem %d anos e recebe R$ %.2f reais%n%n", nome, idade, salario); // marcadores para cada tipo
-																																													// de dado
+		System.out.printf("%s tem %d anos e recebe R$ %.2f reais%n%n", nome, idade, salario); // marcadores para cada
+																								// tipo
+																								// de dado
 
 		// desafio aula - 23
 		String product1 = "Computer";
