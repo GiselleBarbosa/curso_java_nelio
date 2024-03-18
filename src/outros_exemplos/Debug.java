@@ -1,4 +1,4 @@
-package aulas;
+package outros_exemplos;
 
 import java.util.Locale;
 import java.util.Scanner;

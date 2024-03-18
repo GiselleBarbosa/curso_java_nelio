@@ -1,7 +1,7 @@
 // Uma operadora de telefonia cobra R$ 50,00 por um plano basico que da direto a 100 min de ligações;
 // Cada minuto excedido destra franquia, sofre incidencia de tarifa de R$ 2,00.
 // Crie um programa que receba a quantidade de minutos que o cliente consumiu e exiba o valor a ser pago.
-package aulas;
+package aulas.j02_estrutura_condicional;
 
 import java.util.Locale;
 import java.util.Scanner;

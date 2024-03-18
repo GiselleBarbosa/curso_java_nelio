@@ -8,34 +8,32 @@ de cada peça 2. Calcule e mostre o valor a ser pago.
 
 */
 package exercicios.aula_29;
+
 import java.util.Scanner;
 
 public class Exercicio_05 {
 
 	public static void main(String[] args) {
-	
+
 		Scanner scanner = new Scanner(System.in);
 
-		        int codigoPeca1, codigoPeca2;
-		        int quantidadePeca1, quantidadePeca2;
-		        double precoUnitarioPeca1, precoUnitarioPeca2;
-		        double totalPeca1, totalPeca2;
+		int quantidadePeca1, quantidadePeca2;
+		double precoUnitarioPeca1, precoUnitarioPeca2;
+		double totalPeca1, totalPeca2;
 
-		        codigoPeca1 = scanner.nextInt();
-		        quantidadePeca1 = scanner.nextInt();
-		        precoUnitarioPeca1 = scanner.nextDouble();
+		quantidadePeca1 = scanner.nextInt();
+		precoUnitarioPeca1 = scanner.nextDouble();
 
-		        codigoPeca2 = scanner.nextInt();
-		        quantidadePeca2 = scanner.nextInt();
-		        precoUnitarioPeca2 = scanner.nextDouble();
+		quantidadePeca2 = scanner.nextInt();
+		precoUnitarioPeca2 = scanner.nextDouble();
 
-		        totalPeca1 = precoUnitarioPeca1 * quantidadePeca1;
-		        totalPeca2 = precoUnitarioPeca2 * quantidadePeca2;
+		totalPeca1 = precoUnitarioPeca1 * quantidadePeca1;
+		totalPeca2 = precoUnitarioPeca2 * quantidadePeca2;
 
-		        double valorTotal = totalPeca1 + totalPeca2;
+		double valorTotal = totalPeca1 + totalPeca2;
 
-		        System.out.printf("VALOR A PAGAR: R$ %.2f", valorTotal);
+		System.out.printf("VALOR A PAGAR: R$ %.2f", valorTotal);
 
-		        scanner.close();
-		    }
-		}
+		scanner.close();
+	}
+}

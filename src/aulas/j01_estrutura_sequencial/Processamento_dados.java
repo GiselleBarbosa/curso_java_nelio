@@ -1,4 +1,4 @@
-package aulas;
+package aulas.j01_estrutura_sequencial;
 
 public class Processamento_dados {
 

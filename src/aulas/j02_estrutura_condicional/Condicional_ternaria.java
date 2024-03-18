@@ -1,4 +1,4 @@
-package aulas;
+package aulas.j02_estrutura_condicional;
 
 import java.util.Scanner;
 
