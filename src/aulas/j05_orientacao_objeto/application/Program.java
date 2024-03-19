@@ -18,10 +18,11 @@ public class Program {
 		product.name = scanner.next();
 		System.out.print("Price: ");
 		product.price = scanner.nextDouble();
-		System.out.print("Quantity: ");
+		System.out.print("Quantity in stock: ");
 		product.quantity = scanner.nextInt();
 
-		System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+		System.out.println(product);
+
 		scanner.close();
 	}
 
